@@ -1,0 +1,23 @@
+# Ortam degiskenleri - API ANAHTARI BURADA, ASLA COMMIT ETME
+.env
+.env.*
+!.env.example
+
+# Sanal ortam
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Uretilen vektor veritabani (create_vector_db.py ile yeniden olusturulur)
+faiss_index/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
